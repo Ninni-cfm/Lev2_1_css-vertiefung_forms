@@ -24,6 +24,9 @@ form {
     margin: 20px auto 20px;
 }
 
+/*****************************************************************************
+    A pseudo title bar
+*/
 h2 {
     font-size: 2em;
     padding: 15px 0;
@@ -31,16 +34,19 @@ h2 {
     color: white;
     text-align: center;
 }
-div {
-    padding: 20px;
-}
 
+/*****************************************************************************
+    The input area 
+*/
+div {
+    padding: 15px;
+}
 input,
 textarea {
     display: block;
     font-size: 0.8em;
     width: 90%;
-    margin: 15px auto;
+    margin: 15px auto 0;
     padding: 10px;
     
 }
@@ -48,6 +54,9 @@ textarea {
     height: 60px;
 }
 
+/*****************************************************************************
+    The submit button
+*/
 button {
     display: block;
     border: none;
@@ -57,6 +66,9 @@ button {
     color: white;
     text-align: center;
     width: 96%;
-    margin: 25px auto 10px;
+    margin: 0 auto 10px;
     padding: 10px;
+}
+button:hover{
+    background: #4dc092;
 }
